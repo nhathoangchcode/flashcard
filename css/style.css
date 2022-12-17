@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.term {
+    border: solid 5px #e6c462;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.definition{
+    border: solid 5px #e6c462;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    color: #e6c462;
+    background-color:#000000;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0,5s;
+    background-color: #e6c462;
+    color: black;
+}
